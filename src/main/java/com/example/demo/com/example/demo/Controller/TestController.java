@@ -9,6 +9,7 @@ public class TestController {
     @RequestMapping(value = "/testc/{id}")
     public String tests(@PathVariable String id){
         System.out.println(id);
+        System.out.println("aaaaaaa");
         return id;
     }
 
