@@ -30,6 +30,7 @@ public class TestController {
         testRecord.setTestDesc("分支最后的代码");;
         testRecord.setTestDesc("分支最后的代码");;
         testRecord.setTestDesc("分支最后的代码");;
+        testRecord.setTestDesc("主干最后的代码");;
         return testDao.save(testRecord);
     }
 
