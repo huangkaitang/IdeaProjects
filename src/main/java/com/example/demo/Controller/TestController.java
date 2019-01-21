@@ -24,6 +24,7 @@ public class TestController {
         testRecord.setId(id);
         testRecord.setTestId("testId"+id);
         testRecord.setTestDesc("testDesc"+id);;
+        testRecord.setTestDesc("testDesc"+"a");;
         return testDao.save(testRecord);
     }
 
