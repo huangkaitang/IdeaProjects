@@ -34,6 +34,7 @@ public class TestController {
         testRecord.setTestDesc("分支准备睡觉的代码");;
         testRecord.setTestDesc("1月22号01");;
         testRecord.setTestDesc("1月22号02");
+        testRecord.setTestDesc("1月22号主干03");
         return testDao.save(testRecord);
     }
 
