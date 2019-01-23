@@ -35,6 +35,7 @@ public class TestController {
         testRecord.setTestDesc("1月22号01");;
         testRecord.setTestDesc("1月22号02");
         testRecord.setTestDesc("1月22号主干03");
+        testRecord.setTestDesc("1月23号主干04");
         return testDao.save(testRecord);
     }
 
