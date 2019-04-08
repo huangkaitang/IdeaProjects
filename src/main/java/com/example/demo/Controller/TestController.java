@@ -38,6 +38,9 @@ public class TestController {
         testRecord.setTestDesc("1月23号主干04");
         testRecord.setTestDesc("2月17号主干01");
         testRecord.setTestDesc("2月17号分支02");
+        testRecord.setTestDesc("4月8号的111");
+        testRecord.setTestDesc("4月8号的222");
+        testRecord.setTestDesc("4月8号的333");
         return testDao.save(testRecord);
     }
 
